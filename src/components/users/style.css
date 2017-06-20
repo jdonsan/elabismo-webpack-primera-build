@@ -1,0 +1,14 @@
+.users {
+    list-style: none;
+}
+
+.users li:before {
+    content: '';
+    background: url(./icon.png);
+    background-size:cover;
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 1rem;
+}
